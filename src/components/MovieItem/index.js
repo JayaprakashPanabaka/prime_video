@@ -27,7 +27,7 @@ const MovieItem = props => {
               data-testid="closeButton"
               onClick={() => close()}
             >
-              <IoMdClose size={20} color="#231f20" />
+              <IoMdClose size="30" color="#231f20" aria-label="close" />
             </button>
             <div className="movie-player-container">
               <ReactPlayer url={videoUrl} controls />

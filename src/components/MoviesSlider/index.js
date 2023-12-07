@@ -16,7 +16,7 @@ const MovieSlider = props => {
   }
 
   return (
-    <div>
+    <div className="slider-container">
       <Slider {...settings}>
         {moviesList.map(eachMovie => (
           <MovieItem key={eachMovie.id} movieDetails={eachMovie} />
